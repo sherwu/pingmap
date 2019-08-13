@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
-import BarChart from './BarChart'
+import StateMap from './StateMap'
 
 class App extends Component {
    render() {
@@ -10,7 +10,7 @@ class App extends Component {
             <h2>d3ia dashboard</h2>
           </div>
           <div>
-            <BarChart data={[5,10,1,3]} size={[500,500]} />
+            <StateMap />
           </div>
         </div>
      )
