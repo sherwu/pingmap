@@ -1,0 +1,9 @@
+.usMap {
+  display: block;
+  margin: 0 auto;
+}
+
+.renderedState {
+  stroke: #F0F0F0;
+  fill: #1D2C4C;
+}
