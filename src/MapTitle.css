@@ -1,0 +1,21 @@
+.MapTitle {
+  position: absolute;
+  width: 250px;
+  right: 50px;
+  bottom: 100px;
+}
+
+.OpendoorLogo {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.LogoSubtitle {
+  margin: 0px 0px 10px 0px;
+}
+
+.LiveTime {
+  color: #BABCBC;
+  font-style: italic;
+  font-size: 12px;
+}
