@@ -10,7 +10,7 @@ class StateMap extends Component {
   createPing(lat, long) {
     const projection = geoAlbers();
 
-    // Main ping that stays for 30 seconds.
+    // Main ping that stays for a minute.
     select('.usMap')
       .append('circle')
       .style('fill', '#1C85E8') // opendoor blue
@@ -18,7 +18,7 @@ class StateMap extends Component {
       .attr('cy', projection([long, lat])[1])
       .attr('r', 3)
       .transition()
-        .duration(30000)
+        .duration(60000)
         .style('fill', 'transparent')
         .remove();
 
