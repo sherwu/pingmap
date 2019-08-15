@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './App.css'
+import './css/App.css'
 import StateMap from './StateMap'
 import MapTitle from './MapTitle'
 import DataSourcePicker from './DataSourcePicker'

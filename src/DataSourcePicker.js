@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './DataSourcePicker.css'
+import './css/DataSourcePicker.css'
 
 class DataSourcePicker extends Component {
   render() {

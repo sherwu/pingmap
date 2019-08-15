@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './MapTitle.css'
+import './css/MapTitle.css'
 import Moment from 'react-moment'
 
 class MapTitle extends Component {

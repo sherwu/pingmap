@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './StateMap.css'
+import './css/StateMap.css'
 import statedata from './data/us_states'
 import { geoAlbers, geoPath } from 'd3-geo'
 import { select } from 'd3-selection'
