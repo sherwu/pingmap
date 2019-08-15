@@ -1,0 +1,17 @@
+.DataSourcePicker {
+  position: absolute;
+  right: 100px;
+  top: 120px;
+  width: 250px;
+  text-align: right;
+}
+
+.DataSource {
+  font-size: 10px;
+  color: #525975;
+  margin: 5px 0px;
+}
+
+.DataSourceDot {
+  margin-left: 5px;
+}
