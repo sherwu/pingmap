@@ -9,11 +9,12 @@ import moment from 'moment'
 class StateMap extends Component {
   createPing(lat, long) {
     const projection = geoAlbers();
+    const OPENDOOR_BLUE = '#1C85E8';
 
     // Main ping that stays for a minute.
     select('.usMap')
       .append('circle')
-      .style('fill', '#1C85E8') // opendoor blue
+      .style('fill', OPENDOOR_BLUE)
       .attr('cx', projection([long, lat])[0])
       .attr('cy', projection([long, lat])[1])
       .attr('r', 3)
@@ -25,7 +26,7 @@ class StateMap extends Component {
     // Outward radiating effect (2 seconds).
     select('.usMap')
       .append('circle')
-      .style('fill', '#1C85E8') // opendoor blue
+      .style('fill', OPENDOOR_BLUE)
       .attr('cx', projection([long, lat])[0])
       .attr('cy', projection([long, lat])[1])
       .attr('r', 3)
